@@ -13,7 +13,9 @@ function AboutCard() {
             <br />
             I am currently perfecting my software development skills.
             <br />
-            I have completed my undergraduate in Bsc Business Information Technology(BBIT) From KABARAK UNIVERSITY.
+            I have completed my undergraduate in Bsc Business Information Technology<span className="purple">(BBIT)</span>  From <span className="purple">KABARAK UNIVERSITY</span>.
+            <br />
+            I have done a certification in<span className="purple"> Software Engineering</span>  From <span className="purple">MORINGA SCHOOL</span>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -30,7 +32,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "orange" }}>
             "Only a life lived for otherS is a life worthwhile"{" "}
           </p>
           <footer className="blockquote-footer">Albert Einstein</footer>
