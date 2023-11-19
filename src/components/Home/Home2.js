@@ -29,27 +29,21 @@ function Home2() {
               <br />
               <br />
               My field of Interest's are building new &nbsp;
-              <i>
                 <b className="purple">Web Applications </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Data Science.
                 </b>
-              </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
+              with
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript and python Library and Frameworks
                 </b>
-              </i>
               &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+                <b className="purple"> React.js, Flask and Next.js</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,7 +54,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>FIND <span className="purple">ME</span> ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
