@@ -23,9 +23,7 @@ function Home2() {
               and a passion to learn new things
               <br />
               <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Python, Javascript </b>
-              </i>
+                <b className="purple"> Python, Javascript, CSS,  </b>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
@@ -43,7 +41,7 @@ function Home2() {
                   Modern Javascript and python Library and Frameworks
                 </b>
               &nbsp; like
-                <b className="purple"> React.js, Flask and Next.js</b>
+                <b className="purple"> React.js, Flask, Node.js and Next.js</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
