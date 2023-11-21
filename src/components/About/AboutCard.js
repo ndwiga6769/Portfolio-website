@@ -17,7 +17,7 @@ function AboutCard() {
             <br />
             I have done a certification in<span className="purple"> Software Engineering</span>  From <span className="purple">MORINGA SCHOOL</span>.
             <br />
-            I am looking for new opportunities to <span className="purple">Learn</span> and <span className="purple"> Work </span> and grow my <span className="purple">Skillset</span>.
+            I am looking for new opportunities to <span className="purple">Learn</span> and <span className="purple"> Work </span> in order to grow my<span className="purple"> Knowledge </span> and <span className="purple">Skillset</span>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -32,7 +32,7 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Reading books
             </li>
-          </ul>
+          </ul> 
 
           <p style={{ color: "orange" }}>
             "Only a life lived for otherS is a life worthwhile"{" "}
