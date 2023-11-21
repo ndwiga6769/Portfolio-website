@@ -32,7 +32,7 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Reading books
             </li>
-          </ul> 
+          </ul>
 
           <p style={{ color: "orange" }}>
             "Only a life lived for otherS is a life worthwhile"{" "}
