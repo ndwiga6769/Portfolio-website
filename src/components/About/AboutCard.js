@@ -11,11 +11,13 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Danwycliff Ndwiga </span>
             from <span className="purple"> Nairobi, Kenya.</span>
             <br />
-            I am currently perfecting my software development skills.
+            I am currently perfecting my software development and Cyber Security skills.
             <br />
-            I have completed my undergraduate in Bsc Business Information Technology<span className="purple">(BBIT)</span>  From <span className="purple">KABARAK UNIVERSITY</span>.
+            I graduated with Bsc Business Information Technology<span className="purple">(BBIT)</span>  From <span className="purple">KABARAK UNIVERSITY</span>.
             <br />
-            I have done a certification in<span className="purple"> Software Engineering</span>  From <span className="purple">MORINGA SCHOOL</span>.
+            I have a certification in<span className="purple"> Software Engineering</span>  From <span className="purple">MORINGA SCHOOL</span>.
+            <br />
+            I'm persuing a certification in<span className="purple"> Cyber Security - Security Analyst</span>  From <span className="purple"> USIU Cyber Shujaa</span>.
             <br />
             I am looking for new opportunities to <span className="purple">Learn</span> and <span className="purple"> Work </span> in order to grow my<span className="purple"> Knowledge </span> and <span className="purple">Skillset</span>.
             <br />
