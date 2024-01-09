@@ -9,7 +9,7 @@ function Type() {
           "Full-Stack Software Developer",
           "Backend Development",
           "Frontend Development",
-          "Open Source Contributor",
+          "Cyber Security",
         ],
         autoStart: true,
         loop: true,
