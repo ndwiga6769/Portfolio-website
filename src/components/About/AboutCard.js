@@ -37,7 +37,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "orange" }}>
-            "Only a life lived for otherS is a life worthwhile"{" "}
+            "Only a life lived for others is a life worthwhile"{" "}
           </p>
           <footer className="blockquote-footer">Albert Einstein</footer>
         </blockquote>
