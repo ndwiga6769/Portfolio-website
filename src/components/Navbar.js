@@ -87,11 +87,11 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://medium.com/p/f3783c04aa81/edit"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
           </Nav>
