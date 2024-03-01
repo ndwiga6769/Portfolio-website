@@ -51,6 +51,17 @@ function Projects() {
               demoLink="#"              
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Book-Library-Website"
+              description="
+              A Library review app serves as your go-to guide for Book enthusiasts, offering comprehensive reviews and personalized recommendations."
+              ghLink="https://github.com/ndwiga6769/library-project"
+              demoLink="https://phase1-project-lf5bltbfr-ndwiga6769.vercel.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
