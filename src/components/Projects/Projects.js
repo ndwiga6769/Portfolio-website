@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
+import download from "../../Assets/Projects/download.jpeg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -53,7 +54,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={download}
               isBlog={false}
               title="Book-Library-Website"
               description="

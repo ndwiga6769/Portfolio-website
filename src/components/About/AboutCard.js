@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Danwycliff Ndwiga </span>
             from <span className="purple"> Nairobi, Kenya.</span>
             <br />
-            I am currently learning more about business and tech in specific software development and Cyber Security skills.
+            I am currently learning more about business and tech in specific; software development and Cyber Security skills.
             <br />
             I graduated with Bsc Business Information Technology<span className="purple">(BBIT)</span>  From <span className="purple">KABARAK UNIVERSITY</span>.
             <br />
