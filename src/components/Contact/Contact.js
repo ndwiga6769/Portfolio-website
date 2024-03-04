@@ -55,7 +55,7 @@ const Contact = () => {
                         React.createElement("input", { type: "email", name: "reply_to", className: "user", placeholder: "Email", onChange: handleChange }),
                         React.createElement("textarea", { name: "message", className: "user", placeholder: "Message", onChange: handleChange }),
                         React.createElement("span", { className: 'not-done' }, notDone && "Please, fill all the input field"),
-                        React.createElement(Button, { type: "submit", className: "button", disabled: done }, "Send"),
+                        React.createElement(Button, { type: "submit", className: "button",}, "Send"),
                         React.createElement("span", { className: 'done' }, done && "Thanks for contacting me and be sure I have received your mail. If you are testing this functionality then I am confirming this thing working perfectly fine. If you have any serious query then I will reply. Also if you need me, you can contact me on Linkedin.")
                     )
                 )
