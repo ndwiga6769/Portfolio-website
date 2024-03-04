@@ -22,7 +22,6 @@ const Contact = () => {
         if (!formData.from_name || !formData.reply_to || !formData.message) {
             setNotDone(true);
         } else {
-            // Please use your own credentials from emailjs or I will receive your email
             emailjs
                 .sendForm(
                     "service_33h4j0b",
@@ -34,6 +33,9 @@ const Contact = () => {
                     (result) => {
                         console.log(result.text);
                         setDone(true);
+                        // Reset the form and button state after sending email
+                        form.current.reset();
+                        setFormData({});
                     },
                     (error) => {
                         console.log(error.text);
@@ -43,24 +45,24 @@ const Contact = () => {
     };
 
     return (
-        React.createElement(Container, { style: { paddingTop: '50px' } },
-            React.createElement(Row, null,
-                React.createElement(Col, { md: 6, className: "c-left" },
-                    React.createElement("h1", null, "Get in Touch"),
-                    React.createElement("h1", { className: "yellow" }, "Contact me")
-                ),
-                React.createElement(Col, { md: 6, className: "c-right" },
-                    React.createElement("form", { ref: form, onSubmit: sendEmail },
-                        React.createElement("input", { type: "text", name: "from_name", className: "user", placeholder: "Name", onChange: handleChange }),
-                        React.createElement("input", { type: "email", name: "reply_to", className: "user", placeholder: "Email", onChange: handleChange }),
-                        React.createElement("textarea", { name: "message", className: "user", placeholder: "Message", onChange: handleChange }),
-                        React.createElement("span", { className: 'not-done' }, notDone && "Please, fill all the input field"),
-                        React.createElement(Button, { type: "submit", className: "button",}, "Send"),
-                        React.createElement("span", { className: 'done' }, done && "Thanks for contacting me and be sure I have received your mail. If you are testing this functionality then I am confirming this thing working perfectly fine. If you have any serious query then I will reply. Also if you need me, you can contact me on Linkedin.")
-                    )
-                )
-            )
-        )
+        <Container style={{ paddingTop: '50px' }}>
+            <Row>
+                <Col md={6} className="c-left">
+                    <h1>Get in Touch</h1>
+                    <h1 className="yellow">Contact me</h1>
+                </Col>
+                <Col md={6} className="c-right">
+                    <form ref={form} onSubmit={sendEmail}>
+                        <input type="text" name="from_name" className="user" placeholder="Name" onChange={handleChange} />
+                        <input type="email" name="reply_to" className="user" placeholder="Email" onChange={handleChange} />
+                        <textarea name="message" className="user" placeholder="Message" onChange={handleChange} />
+                        <span className='not-done'>{notDone && "Please, fill all the input field"}</span>
+                        <Button type="submit" className="button">Click Once</Button>
+                        <span className='done'>{done && "Thanks for contacting me and be sure I have received your mail. If you are testing this functionality then I am confirming this thing working perfectly fine. If you have any serious query then I will reply. Also if you need me, you can contact me on Linkedin."}</span>
+                    </form>
+                </Col>
+            </Row>
+        </Container>
     );
 };
 
