@@ -11,25 +11,25 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Danwycliff Ndwiga </span>
             from <span className="purple"> Nairobi, Kenya.</span>
             <br />
-            I am currently perfecting my software development and Cyber Security skills.
+            I am currently learning more about business and tech in specific software development and Cyber Security skills.
             <br />
             I graduated with Bsc Business Information Technology<span className="purple">(BBIT)</span>  From <span className="purple">KABARAK UNIVERSITY</span>.
             <br />
             I have a certification in<span className="purple"> Software Engineering</span>  From <span className="purple">MORINGA SCHOOL</span>.
             <br />
-            I'm persuing a certification in<span className="purple"> Cyber Security - Security Analyst</span>  From <span className="purple"> USIU Cyber Shujaa</span>.
+            I'm in an ongoing certification in<span className="purple"> Cyber Security - Security Analyst</span>  From <span className="purple"> USIU Cyber Shujaa</span>.
             <br />
-            I am looking for new opportunities to <span className="purple">Learn</span> and <span className="purple"> Work </span> in order to grow my<span className="purple"> Knowledge </span> and <span className="purple">Skillset</span>.
+            I am looking for new opportunities to <span className="purple">Work</span> and <span className="purple"> Learn </span> in order to grow my<span className="purple"> Knowledge </span> and <span className="purple">Skillset</span>.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from Business and Tech, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Community service
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Tech Content
+              <ImPointRight /> Watching Documentaries
             </li>
             <li className="about-activity">
               <ImPointRight /> Reading books
