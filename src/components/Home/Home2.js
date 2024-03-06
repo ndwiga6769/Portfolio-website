@@ -19,18 +19,18 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MY SELF TO YOU
             </h1>
             <p className="home-about-body">
-              I fell in love with programming due to my curiosity 
-              and a passion to learn new things
+              I love taking on challenging tasks due to my curiosity 
+              and a passion to learn new things and push myself to the limits
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in languages like
                 <b className="purple"> Python, Javascript, CSS,  </b>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-                <b className="purple">Web Applications </b> and
+              My field of Interest is in &nbsp;
+                <b className="purple">Business Information Technology </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Data Science.
+                  Data Science, Software Development, Business Intelligence and Analytics, Cyber Security.
                 </b>
               <br />
               <br />
