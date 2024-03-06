@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import { Container, Row, Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import './Contact.css';
+import Particle from "../Particle";
 
 const Contact = () => {
     const form = useRef();
@@ -46,6 +47,7 @@ const Contact = () => {
 
     return (
         <Container style={{ paddingTop: '50px' }}>
+            <Particle />
             <Row>
                 <Col md={6} className="c-left">
                     <h1>Get in Touch</h1>
