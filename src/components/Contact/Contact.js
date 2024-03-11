@@ -60,7 +60,7 @@ const Contact = () => {
                         <textarea name="message" className="user" placeholder="Message" onChange={handleChange} />
                         <span className='not-done'>{notDone && "Please, fill all the input field"}</span>
                         <Button type="submit" className="button">Click Once</Button>
-                        <span className='done'>{done && "Thanks for contacting me and be sure I have received your mail. If you are testing this functionality then I am confirming this thing working perfectly fine. If you have any serious query then I will reply. Also if you need me, you can contact me on Linkedin."}</span>
+                        <span className='done'>{done && "Thanks for contacting Danwycliff Njoka be sure I have received your mail. If you are testing this functionality then I am confirming this thing is working perfectly fine. If you have any serious query then I will reply. Also if you need me, you can contact me on Linkedin or any other sites."}</span>
                     </form>
                 </Col>
             </Row>
